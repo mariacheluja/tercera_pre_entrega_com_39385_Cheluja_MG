@@ -1,0 +1,69 @@
+@media (max-width: 768px) {
+    h1 {
+        text-align: left;
+        font-size: 25px;
+        gap: 5px;
+        flex-wrap: wrap;
+      /* padding-left: 10px; */ }
+    .sectionFooter {
+        flex-wrap: wrap;
+        justify-content: left;
+        width: 768px; }
+    .contacto {
+        width: 768px; }
+    .pepito {
+        width: 768px; }
+    .navbar {
+        width: 768px;
+        justify-content: center; }
+    .tipo {
+        width: 768px; }
+    .div {
+        gap: 30px;
+        background-color: #d5c8e2; }
+    .cuerpo row {
+        width: 768px;
+      /* background-color:rgb(230, 243, 243); */ }
+    .pres {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3; }
+    .menute {
+        width: 768px;
+        background-color: #e6f3f3; }
+    .tipote {
+        text-align: right; }
+    .contactote {
+        width: 768px; }
+    .imgte {
+        width: 620px;
+        height: 300px;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        background-color: #e6f3f3; }
+    .acerca {
+        height: 800px;
+        width: 768px; }
+    .acercab {
+        width: 768px;
+        height: 800px; }
+    .sectionFooterte {
+        height: 550px;
+        width: 768px;
+        padding-top: 120px;
+        background-color: #e6f3f3; }
+    .div {
+        background-color: #e6f3f3; }
+    .row {
+        width: 580px;
+      /* justify-content: space-between; */
+        font-size: 20px;
+        background-color: #e6f3f3; }
+    .col {
+      /* text-align: left; */
+        font-size: 20px;
+      /* flex-direction: column; */
+        flex-direction: wrap; } }

@@ -1,0 +1,102 @@
+@media (max-width: 425px) {
+    .inicio {
+        font-size: 2em;
+        text-align: right;
+        width: 425px;
+        height: 40vh; }
+    .pepito {
+        width: 425px;
+        gap: 0.5px;
+        padding-left: 10px; }
+    .navbar {
+        width: 425px;
+        height: 50px;
+        padding-left: 1px;
+        padding-top: 0.5rem;
+        font-size: 20px; }
+    .cuerpo {
+        width: 425px;
+        grid-template-columns: 150px 150px 150px;
+        grid-template-rows: 500px 500px 500px; }
+    .menute {
+        flex-direction: wrap;
+        height: 30px;
+        width: 400px;
+        padding-top: 25rem;
+        gap: 1px; }
+    .contacto {
+        font-size: 20px;
+        text-align: center;
+        width: 425px;
+        height: 10vh; }
+    .contactote {
+        font-size: 20px;
+        text-align: center;
+        width: 425px;
+        height: 10vh; }
+    .col {
+        width: 300px;
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3; }
+    .pres {
+        width: 300px;
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3; }
+    .acercab {
+        width: 425px;
+        height: 500px; }
+    .sectionFooter {
+        height: 35vh;
+        width: 425px;
+        padding-top: 7rem;
+        padding-left: 1px; }
+    /* .sectionFooter{
+          flex-wrap: wrap;
+          justify-content: left;
+          width: 425px;
+      } */
+    /* .tipo{
+          width: 425px;
+          height: 30px;
+      } */
+    .prom {
+      /* width: auto; */
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3; }
+    .col {
+      /* width: auto; */
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1; }
+    .ofer {
+      /* width: auto; */
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2; }
+    .prom p {
+        width: auto;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2; }
+    .par {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3; }
+    .row {
+        width: auto;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3; } }

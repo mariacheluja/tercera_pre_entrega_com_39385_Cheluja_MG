@@ -1,0 +1,42 @@
+@mixin flex ($direction,$wrap,$justify,$align){
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+    padding: 30px 0px 20px 100px;
+    gap: 30px;
+    width: 1440px;
+}
+
+
+@mixin grid_acerca ($col,$row,$justify,$align,$areas){
+    display: grid;
+    width: 500px;
+    height: 50vh;
+    background-color: rgba(0, 255, 255, 0.068);
+    grid-template-columns: $col;
+    grid-template-rows: $row;
+    justify-content: $justify;
+    align-items: $align;
+    grid-template-areas: $areas;
+    grid-template-areas: "footer header main"
+    "footer header main"
+    "footer header main"
+    "footer header main"; 
+}
+
+@mixin letra ($color, $tamaño){
+    
+    background-color: $color;
+    font-size: $tamaño;
+}
+
+@mixin cuerpo ($ancho, $largo, $col, $fila){
+    display: grid;
+    width: $ancho;
+    height: $largo;
+    background-color: $color_cuerpo;
+    grid-template-columns:$col;
+    grid-template-rows: $fila;
+}

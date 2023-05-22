@@ -1,0 +1,48 @@
+.cuerpo {
+    display: grid;
+    width: 1440px;
+    height: 1497px;
+    background-color: lightgray;
+}
+
+
+.conteiner-fluid {
+  @include flex (none,wrap,center,center);
+  background-color: $color_inicio;
+  font-size: 100px;
+  padding: 30px 0px 20px 100px;
+  gap: 1000px;
+  width: 1440px; 
+}
+.imagente{
+  width:1440px;
+  @include cuerpo (1440px, 500px, 3,3);
+    .ic{
+      width: 400px;
+      transform: skew(10deg);
+      grid-column: 2/3;
+      grid-row: 2/3;
+    
+    ul.tipo{
+      @include cuerpo (1440px, 500px, 3,3);
+      font-size: 100px;;
+      grid-column: 1/1;
+      grid-row: 1/1;
+      background-color:red;
+      
+  }}
+  
+}
+  
+
+  
+  h2{
+    font-size: 20px;
+    text-indent: 300px;
+    margin: 30px; }
+  
+  h3 {
+    font-style: oblique;
+    text-decoration-style: dotted;
+    text-decoration-style: solid; }
+  

@@ -1,0 +1,107 @@
+@media (max-width: 1440px) {
+    .inicio {
+        width: 1440px;
+        height: 40vh;
+        background-color:whitesmoke;
+ }
+    .pepito {
+        width: 1440px;
+        font-size: 30px;
+        text-align: center;
+        padding: 30px 0px 20px 150px;
+        gap: 250px;
+        background-color:black;
+ }
+    .membrete {
+        width: 1440px;
+        font-size: 10px;
+        text-align: center;
+        padding: 10px 0px 20px 150px;
+        gap: 25px;
+        background-color:rosybrown;
+ }
+    .menute {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style: none;
+        padding-top: 400px;
+        padding-left: 200px;
+        height: 60px;
+        width: 1440px;
+        background-color:deeppink;
+ }
+    .navbar {
+        width: 1440px;
+        height: 5vh;
+        padding-left: 20rem;
+        padding-top: 0.5rem;
+        text-align: center;
+        font-size: 10px;
+        background-color: darkorange; }
+    .pres col {
+        width: 1440px;
+        height: 40vh; }
+    .prom {
+        width: 180px;
+        height: 80vh; }
+    .sectionFooter {
+        
+        height: 65vh;
+        width: 90rem;
+        padding-top: 7rem;
+        background-color:blue;
+     }
+    .tipo {
+        width: 1440px;
+        height: 120vh;
+        background-color:violet;
+     }
+    .cuerpo {
+        width: 90rem; }
+    .contacto {
+        font-size: 30px;
+        text-align: center;
+      /* padding-left: 1rem; */
+        width: 90rem;
+        height: 20vh;
+        background-color:yellow; }
+    .img {
+        grid-area: img;
+        width: 100px;
+        height: 50vh;
+        grid-area: img;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding: 1px 10px 10px 0px; }
+    .imagen {
+        width: 30vh;
+        height: 30vh;
+        grid-template-columns: 5vh 5vh 5vh;
+        grid-template-rows: 10vh 10vh 10vh; }
+    .imgte {
+        grid-area: img;
+        width: 50px;
+        height: 50vh;
+        grid-area: img;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        padding: 1px 10px 10px 0px; }
+    .contactote {
+        font-size: 30px;
+        text-align: center;
+        width: 90rem;
+        height: 5vh;
+        background-color: greenyellow; }
+    
+.sectionFooterte {
+      
+        height: 40vh;
+        width: 1440px;
+        padding-top: 7rem; 
+        background-color: red;}}

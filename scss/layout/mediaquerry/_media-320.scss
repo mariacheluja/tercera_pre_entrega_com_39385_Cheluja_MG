@@ -1,0 +1,55 @@
+@media (max-width: 320px) {
+    .inicio {
+        font-size: 1rem;
+        text-align: justify;
+        padding: 0.5rem 2rem 1rem 0rem;
+        
+        width: 320px;
+        height: 50vh;
+        }
+    .menu {
+        height: 35vh;
+        width: 320px; }
+    .navbar {
+        width: 320px;
+        height: 5vh;
+        padding-left: 1rem;
+        padding-top: 0.5rem;
+        text-align: center;
+        font-size: 20px; }
+    .pepito {
+        width: 320px; }
+    .sectionFooter {
+      
+        height: 10vh;
+        width: 320px; }
+    .tipo {
+        width: 320px;
+        height: 100vh; }
+    .cuerpo {
+        height: 120vh; }
+    .contacto {
+        font-size: 1rem;
+        text-align: justify;
+        width: 320px;
+        height: 10vh; }
+    .contactote {
+        font-size: 1.5rem;
+        text-align: justify;
+        width: 320px;
+        height: 10vh; }
+    .img {
+        grid-area: img;
+        width: 320px;
+        height: 50vh;
+        grid-area: img;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding: 1px 10px 10px 0px; }
+    .imagen {
+        width: 320px;
+        height: 50vh;
+        grid-template-columns: 5vh 5vh 5vh;
+        grid-template-rows: 10vh 10vh 10vh; } }
